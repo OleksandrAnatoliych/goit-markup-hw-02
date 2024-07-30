@@ -124,12 +124,18 @@ a {
 .ourteam {
   background-color: #f4f4fd;
 }
+
+.ourteam-link {
+  background-color: #fff;
+}
+
 .ourteam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+   text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -151,7 +157,7 @@ a {
 /* #endregion section 2 */
 
 /* #region section 3 */
-.section3-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -160,14 +166,14 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section3-name {
+.portfolio-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section3-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
