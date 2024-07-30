@@ -9,28 +9,9 @@ body {
 
 ul,
 ol {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   list-style-type: none;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 a {
   text-decoration: none;
 }
@@ -40,14 +21,14 @@ a {
 .header {
 }
 
-.nav-header {
+.header-nav {
 }
 
 .nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -76,6 +57,22 @@ a {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+.adress-item {
+}
+.adress-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf;
+}
+
 /* #endregion header */
 
 /* #region hero */
@@ -86,6 +83,7 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
@@ -106,6 +104,7 @@ a {
 /* #endregion hero */
 
 /* #region section 1 */
+
 .section1 {
   font-weight: 500;
   font-size: 20px;
@@ -113,15 +112,79 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.section1-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* #endregion section 1 */
 
+/* #region section 2 */
 .section2 {
   background-color: #f4f4fd;
 }
+.section2-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section2-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section2-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* #endregion section 2 */
+
+/* #region section 3 */
+.section3-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.section3-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section3-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* #endregion section 3 */
 
 /* #region footer */
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-span-footer {
@@ -129,6 +192,9 @@ a {
 }
 
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 /* #endregion footer */
