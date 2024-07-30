@@ -122,11 +122,11 @@ a {
 
 /* #region section 2 */
 .ourteam {
+  text-align: center;
   background-color: #f4f4fd;
 }
 
 .ourteam-link {
-  text-align: center;
   background-color: #fff;
 }
 
