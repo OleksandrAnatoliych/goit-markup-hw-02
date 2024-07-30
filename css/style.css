@@ -105,7 +105,7 @@ a {
 
 /* #region section 1 */
 
-.section1 {
+.feature {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -113,7 +113,7 @@ a {
   color: #2e2f42;
 }
 
-.section1-text {
+.feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -121,10 +121,10 @@ a {
 /* #endregion section 1 */
 
 /* #region section 2 */
-.section2 {
+.ourteam {
   background-color: #f4f4fd;
 }
-.section2-title {
+.ourteam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -133,7 +133,7 @@ a {
   color: #2e2f42;
 }
 
-.section2-name {
+.ourteam-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,7 +142,7 @@ a {
   color: #2e2f42;
 }
 
-.section2-text {
+.ourteam-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -157,6 +157,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section3-name {
@@ -185,6 +186,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-span-footer {
